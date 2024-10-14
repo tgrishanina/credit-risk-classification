@@ -24,6 +24,8 @@ Use your knowledge of logistic regression to complete the following steps:
 
 - Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
+The model does well with predicting healthy loans: very few of the loans that it predicted to be healthy ended up actually being high-risk. However, it falters slightly when predicting high-risk loans. 15% of the loans it marked as high-risk were actually low-risk, so it seems to be identifying more risky loans than there actually are. However, this is better than the alternative, because using this model would reduce the likelihood of loaning to high-risk customers.
+
 # Credit Risk Report
 
 ## Overview of the Analysis
